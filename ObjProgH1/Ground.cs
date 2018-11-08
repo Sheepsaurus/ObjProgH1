@@ -37,9 +37,6 @@ namespace ObjProgH1
         {
             brandName = BrandName;
         }
-        
-        //AdjustHeight
-        //RotateTo
 
         public void SitIn()
         {
@@ -68,30 +65,13 @@ namespace ObjProgH1
                 Console.WriteLine(responseArray[4]);
             }
         }
-        public void AdjustHeight()
+        public void HoldHandle()
         {
             const int maxHeight = 10;
             const int minHeight = 0;
 
-            if (isOccupied)
-            {
-                isOpened = true;
-            }
-            else
-            {
-                Console.WriteLine(responseArray[10]);
-            }
-        }
-        public void Close()
-        {
-            if (isOpened == true)
-            {
-                isOpened = false;
-            }
-            else
-            {
-                Console.WriteLine(responseArray[11]);
-            }
+            if (isOccupied) { height = minHeight; }
+            else { height = maxHeight; }
         }
     }
     class Cupboard : Ground
