@@ -14,7 +14,7 @@ namespace ObjProgH1
             bottle.Drink();
 
             Chair chair = new Chair("DXRacer");
-            chair.AdjustHeight();
+            chair.HoldHandle();
         }
     }
 }

@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace ObjProgH1
+﻿namespace ObjProgH1
 {
     class Other
     {
@@ -12,6 +6,5 @@ namespace ObjProgH1
 
     class Keyboard : Other
     {
-
     }
 }
