@@ -12,10 +12,8 @@ namespace ObjProgH1
 
     class Shoe : Worn
     {
-
     }
     class Headphones : Worn
     {
-
     }
 }

@@ -8,6 +8,7 @@ namespace ObjProgH1
 {
     class Ground
     {
+        
     }
 
     class Bed : Ground
@@ -28,9 +29,7 @@ namespace ObjProgH1
             "You are not sitting in the chair",
             "The chair does not go that low",
             "The chair does not go that high",
-            "There were nobody in the chair to stop the backrest from moving forward",
-            "3",
-            "4"
+            "There were nobody in the chair to stop the backrest from moving forward"
         };
 
         public Chair(string BrandName)
