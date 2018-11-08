@@ -43,8 +43,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Ground.cs" />
+    <Compile Include="Handheld.cs" />
+    <Compile Include="Other.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Wallmounted.cs" />
+    <Compile Include="Worn.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

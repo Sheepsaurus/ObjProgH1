@@ -10,6 +10,11 @@ namespace ObjProgH1
     {
         static void Main(string[] args)
         {
+            Bottle bottle = new Bottle("Fødevarebanken Drikkevand", 500);
+            bottle.Drink();
+
+            Chair chair = new Chair("DXRacer");
+            chair.AdjustHeight();
         }
     }
 }
