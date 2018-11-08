@@ -3,14 +3,9 @@
 namespace ObjProgH1
 {
     class Ground
-    {
-        
+    {        
     }
 
-    class Bed : Ground
-    {
-
-    }
     class Chair : Ground
     {
         public bool isOccupied;
@@ -71,6 +66,31 @@ namespace ObjProgH1
     }
     class Cupboard : Ground
     {
+        //Size
+        //Colour
+        //Space(Doors)
+        //Height
+        //Handles
+
+        //Open
+        //OpenBoth
+        //Close
+        //CloseBoth
+        //RetrieveItem
+        //DepositItem
+    }
+    class Bed : Ground
+    {
+        //Size
+        //Pillows
+        //Type
+        //Colour
+        //Material
+
+        //MakeBed
+        //EnterBed
+        //ExitBed
+        //ChangeSheets
 
     }
 }
